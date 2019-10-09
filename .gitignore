@@ -1,0 +1,10 @@
+*.iml
+/.idea
+**/.terraform/
+**/terraform.tfstate*
+**/.terraform.tfstate.lock*
+**/*.auto.tfvars
+**/*-key.json
+**/terraform.json
+**/inspec.lock
+**/vendor
