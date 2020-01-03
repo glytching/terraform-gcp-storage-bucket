@@ -4,7 +4,7 @@ A Terraform module for creating GCS buckets.
 
 This module:
 
-* Covers all of the attributes exposed by Terraform's [`google_storage_bucket` resource](https://www.terraform.io/docs/providers/google/r/storage_bucket.html):
+* Covers all of the attributes exposed by Terraform's [`google_storage_bucket`](https://www.terraform.io/docs/providers/google/r/storage_bucket.html) resource:
   * location
   * storage class
   * logging
@@ -15,7 +15,7 @@ This module:
   * cors
   * website
 * Allows the caller to manage bucket ACL, using Terraform's [`google_storage_bucket_acl` resource](https://www.terraform.io/docs/providers/google/r/storage_bucket_acl.html)
-* Uses Terraform v0.12 [dynamic blocls](https://www.terraform.io/docs/configuration/expressions.html#dynamic-blocks) to manage optional blocks such as lifecycle rules, encryption etc.
+* Uses Terraform v0.12 [dynamic blocks](https://www.terraform.io/docs/configuration/expressions.html#dynamic-blocks) to manage optional blocks such as lifecycle rules, encryption etc.
 * Is [fully tested](./tests/README.md)
 
 See also [GCS documentation](https://cloud.google.com/storage/docs/).
